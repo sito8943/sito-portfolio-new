@@ -1,3 +1,4 @@
+/* eslint-disable no-undef */
 import { Suspense, useEffect, useCallback } from "react";
 import loadable from "@loadable/component";
 
@@ -13,7 +14,7 @@ const Right = loadable(() => import("./Articles/Right"));
 
 function Hero() {
   const onScroll = useCallback(() => {
-    console.log()
+    console.log();
   }, []);
 
   useEffect(() => {

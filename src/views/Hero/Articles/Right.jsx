@@ -1,3 +1,6 @@
+/* eslint-disable no-undef */
+import { useEffect } from "react";
+
 // components
 import PrintAfter from "../../../components/PrintAfter/PrintAfter";
 
@@ -7,6 +10,16 @@ import sito2 from "../../../assets/images/2.jpg";
 import sito3 from "../../../assets/images/3.jpg";
 
 function Right() {
+  useEffect(() => {
+    VanillaTilt.init(document.querySelectorAll(".hero-image-container"), {
+      reverse: true,
+      max: 10,
+      speed: 400,
+      glare: true,
+      "max-glare": 1,
+    });
+  }, []);
+
   return (
     <article className="hero-right-section">
       <div className="z-10 hero-images">

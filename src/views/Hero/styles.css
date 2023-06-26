@@ -2,6 +2,10 @@
   @apply h-screen flex bg-dark-p;
 }
 
+.hero * {
+  text-shadow: 1px 1px 11px black;
+}
+
 .hero-images {
   transform: rotate(45deg) translateY(-50%);
   grid-template-columns: 1fr 1fr;
@@ -15,7 +19,7 @@
 }
 
 .hero-left-section h1 {
-  @apply text-7xl font-bold text-[white];
+  @apply text-7xl font-bold text-[aliceblue];
 }
 
 .hero-left-section p {
@@ -27,6 +31,7 @@
 }
 
 .hero-image-container {
+  box-shadow: 5px 5px 20px 2px;
   @apply relative w-full h-full overflow-hidden;
 }
 
