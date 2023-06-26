@@ -36,6 +36,20 @@ body {
   }
 }
 
+@media (max-width: 600px) {
+  .navbar {
+    padding: 0 40px;
+  }
+
+  .padding-left {
+    padding-left: 40px;
+  }
+
+  .padding-right {
+    padding-right: 40px;
+  }
+}
+
 .ease {
   transition: all 1s ease;
 }

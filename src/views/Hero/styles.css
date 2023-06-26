@@ -1,3 +1,7 @@
+.hero {
+  @apply h-screen flex bg-dark-p;
+}
+
 .hero-images {
   transform: rotate(45deg) translateY(-50%);
   grid-template-columns: 1fr 1fr;
@@ -5,7 +9,9 @@
 }
 
 .hero-left-section {
-  @apply z-10 w-full h-full flex flex-col items-start justify-center;
+  padding-left: 8rem;
+  @apply z-10 w-full h-full flex flex-col items-start
+    justify-center;
 }
 
 .hero-left-section h1 {
@@ -34,6 +40,10 @@
     @apply relative w-[160px] h-[160px];
   }
 
+  .hero-left-section {
+    padding-left: 5rem;
+  }
+
   .hero-left-section h1 {
     @apply text-5xl;
   }
@@ -54,15 +64,78 @@
 }
 
 @media (max-width: 800px) {
+  .hero {
+    @apply flex-col;
+  }
+
+  .hero-right-section {
+    @apply flex w-full items-center justify-center;
+  }
+
+  .hero-images {
+    transform: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    @apply relative top-auto right-auto w-fit;
+  }
+
+  .hero-image-container img {
+    transform: none;
+  }
+
   .hero-image {
     @apply relative w-[130px] h-[130px];
   }
 
+  .hero-left-section {
+    @apply justify-center items-center h-[70%] pl-0;
+  }
+
   .hero-left-section h1 {
-    @apply text-3xl;
+    @apply text-7xl;
+  }
+
+  .hero-left-section p {
+    @apply text-xl;
+  }
+}
+
+@media (max-width: 600px) {
+  .hero-images {
+    @apply flex flex-wrap justify-center;
+  }
+
+  .hero-left-section {
+    padding-left: 0;
+    @apply justify-center items-center;
+  }
+
+  .hero-left-section {
+    @apply h-[50%];
+  }
+
+  .hero-left-section h1 {
+    @apply text-5xl;
   }
 
   .hero-left-section p {
     @apply text-base;
+  }
+}
+
+@media (max-width: 350px) {
+  .hero-left-section {
+    @apply h-[50%];
+  }
+
+  .hero-left-section h1 {
+    @apply text-3xl pt-[50px];
+  }
+
+  .hero-left-section p {
+    @apply text-base;
+  }
+
+  .hero-image {
+    @apply relative w-[100px] h-[100px];
   }
 }

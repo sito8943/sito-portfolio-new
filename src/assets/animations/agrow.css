@@ -1,13 +1,14 @@
 .aGrow {
-  animation: aGrow 500ms ease 1;
+  animation: aGrow 0.7s ease 1;
 }
 
 .shrink {
-  animation: shrink 500ms ease 1;
+  animation: shrink 0.7s ease 1;
 }
 
 @keyframes aGrow {
   0% {
+    opacity: 0;
     transform: scale(0);
   }
 
@@ -16,6 +17,7 @@
   }
 
   100% {
+    opacity: 1;
     transform: scale(1);
   }
 }
