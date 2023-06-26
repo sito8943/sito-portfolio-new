@@ -8,7 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <main className="entrance">
+    <main>
       <BrowserRouter>
         <Routes>
           <Route

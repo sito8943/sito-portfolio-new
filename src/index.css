@@ -7,7 +7,7 @@
 }
 
 body {
-  @apply bg-main-background;
+  @apply bg-main-background overflow-x-hidden;
 }
 
 .padding-left {
@@ -15,7 +15,7 @@ body {
 }
 
 .padding-right {
-  padding-right: 8px;
+  padding-right: 8rem;
 }
 
 .navbar {
@@ -24,7 +24,15 @@ body {
 
 @media (max-width: 1200px) {
   .navbar {
-    padding: 0 7rem;
+    padding: 0 5rem;
+  }
+
+  .padding-left {
+    padding-left: 5rem;
+  }
+
+  .padding-right {
+    padding-right: 5rem;
   }
 }
 
