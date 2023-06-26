@@ -1,0 +1,11 @@
+@media (min-width: 1051px) {
+  .toggle-drawer {
+    display: none;
+  }
+}
+
+@media (max-width: 1050px) {
+  .links {
+    display: none;
+  }
+}

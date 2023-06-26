@@ -1,0 +1,12 @@
+{
+  "es": {
+    "links": [
+      { "to": "#hero", "label": "Inicio" },
+      { "to": "#i-make", "label": "Lo que hago" },
+      { "to": "#about-me", "label": "Acerca de mi" },
+      { "to": "#skills", "label": "Habilidades" },
+      { "to": "#projects", "label": "Proyectos" },
+      { "to": "#contact-me", "label": "Contactar" }
+    ]
+  }
+}

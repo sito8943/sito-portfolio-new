@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-main-background;
+}
+
+.navbar {
+  padding: 0 10rem;
+}
+
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 0 7rem;
+  }
+}
