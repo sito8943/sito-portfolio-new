@@ -62,7 +62,7 @@ function Navbar() {
               href={link.to}
               className={`${
                 link.to === activeLink ? "text-secondary" : "text-primary"
-              }`}
+              } transition hover:text-secondary`}
             >
               {link.label}
             </a>

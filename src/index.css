@@ -10,12 +10,24 @@ body {
   @apply bg-main-background;
 }
 
+.padding-left {
+  padding-left: 8rem;
+}
+
+.padding-right {
+  padding-right: 8px;
+}
+
 .navbar {
-  padding: 0 10rem;
+  padding: 0 8rem;
 }
 
 @media (max-width: 1200px) {
   .navbar {
     padding: 0 7rem;
   }
+}
+
+.ease {
+  transition: all 1s ease;
 }

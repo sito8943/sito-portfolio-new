@@ -1,0 +1,18 @@
+.hero-images {
+  transform: rotate(45deg) translateY(-50%);
+  grid-template-columns: 1fr 1fr;
+  @apply grid gap-10 absolute top-[50%] right-[26%];
+}
+
+.hero-image {
+  @apply relative w-[170px] h-[170px];
+}
+
+.hero-image-container {
+  @apply relative w-full h-full overflow-hidden;
+}
+
+.hero-image-container img {
+  transform: rotate(-45deg) scale(1.4);
+  @apply w-full h-full z-10 absolute top-0 left-0;
+}

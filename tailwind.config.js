@@ -7,6 +7,8 @@ export default {
       primary: "#2499ff",
       secondary: "#ff5353",
       "main-background": "#1b1b1b",
+      "dark-p": "#222333",
+      "dark-r": "#4f1010",
       "secondary-background": "#222",
       "opacity-secondary-background": "#222222ee",
     },

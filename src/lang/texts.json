@@ -1,5 +1,9 @@
 {
   "es": {
+    "hero": {
+      "title": "Hola soy sito",
+      "body": "Soy desarrollador web frontend y backend"
+    },
     "links": [
       { "to": "#hero", "label": "Inicio" },
       { "to": "#i-make", "label": "Lo que hago" },
