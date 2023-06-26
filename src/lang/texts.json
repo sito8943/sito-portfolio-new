@@ -2,7 +2,7 @@
   "es": {
     "hero": {
       "title": "Hola soy sito",
-      "body": "Soy desarrollador web frontend y backend"
+      "body": "Desarrollador web frontend y backend"
     },
     "links": [
       { "to": "#hero", "label": "Inicio" },
