@@ -1,5 +1,8 @@
 {
   "es": {
+    "ariaLabels": {
+      "toTop": "Ir al inicio"
+    },
     "hero": {
       "title": "Hola soy sito",
       "body": "Desarrollador web frontend y backend"

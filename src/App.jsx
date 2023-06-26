@@ -1,14 +1,17 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 // sections
 import Hero from "./views/Hero/Hero";
 import IMake from "./views/IMake/IMake";
 
 // components
+import ToTop from "./components/ToTop/ToTop";
 import Navbar from "./components/Navbar/Navbar";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <main>
+      <ToTop />
       <BrowserRouter>
         <Routes>
           <Route

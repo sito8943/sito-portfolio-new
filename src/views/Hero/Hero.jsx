@@ -12,7 +12,9 @@ const Left = loadable(() => import("./Articles/Left"));
 const Right = loadable(() => import("./Articles/Right"));
 
 function Hero() {
-  const onScroll = useCallback(() => {}, []);
+  const onScroll = useCallback(() => {
+    console.log()
+  }, []);
 
   useEffect(() => {
     window.addEventListener("scroll", onScroll);

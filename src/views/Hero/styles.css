@@ -87,7 +87,7 @@
   }
 
   .hero-left-section {
-    @apply justify-center items-center h-[70%] pl-0;
+    @apply justify-center items-center h-[70%] pl-0 pt-[50px];
   }
 
   .hero-left-section h1 {
@@ -124,11 +124,11 @@
 
 @media (max-width: 350px) {
   .hero-left-section {
-    @apply h-[50%];
+    @apply h-[50%] pt-[100px];
   }
 
   .hero-left-section h1 {
-    @apply text-3xl pt-[50px];
+    @apply text-3xl;
   }
 
   .hero-left-section p {

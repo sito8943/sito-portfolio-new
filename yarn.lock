@@ -2237,6 +2237,11 @@ side-channel@^1.0.4:
     get-intrinsic "^1.0.2"
     object-inspect "^1.9.0"
 
+some-javascript-utils@^0.9.2:
+  version "0.9.2"
+  resolved "https://registry.yarnpkg.com/some-javascript-utils/-/some-javascript-utils-0.9.2.tgz#e7ce57494c88326227fe561b2c9581aecc29d1bb"
+  integrity sha512-vGYSDIORNyqJyrrzdkOftxxGfI+xZ6C1Zla6OjPM2HGXao80fYX0GCmH1YP75B7L6kCpRxGPpgObW/+XDtjWWA==
+
 source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/source-map-js/-/source-map-js-1.0.2.tgz#adbc361d9c62df380125e7f161f71c826f1e490c"
