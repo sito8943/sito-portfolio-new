@@ -73,7 +73,7 @@ function Navbar() {
   }, [links, activeLink]);
 
   return (
-    <header className="fixed top-0 left-0 w-full h-[60px] flex justify-between items-center bg-opacity-secondary-background backdrop-blur-[20px] navbar">
+    <header className="z-50 fixed top-0 left-0 w-full h-[60px] flex justify-between items-center bg-opacity-secondary-background backdrop-blur-[20px] navbar">
       <Link to="/" className="text-secondary font-bold text-xl">
         {"<Sito />"}
       </Link>

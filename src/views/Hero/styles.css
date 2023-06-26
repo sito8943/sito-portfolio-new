@@ -5,7 +5,7 @@
 }
 
 .hero-image {
-  @apply relative w-[170px] h-[170px];
+  @apply relative w-[210px] h-[210px];
 }
 
 .hero-image-container {
