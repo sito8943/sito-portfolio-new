@@ -2,14 +2,17 @@
   @apply cursor-pointer z-10 absolute text-primary bg-dark-p hover:text-dark-p hover:bg-primary w-10 h-10 rounded-full transition flex items-center justify-center;
 }
 
+.go-button {
+  @apply flex gap-2 transition font-medium px-5 py-2 items-center justify-center rounded-3xl
+}
+
 .cell {
-  @apply w-screen h-screen;
+  @apply w-screen h-screen flex items-center justify-center gap-10 relative;
 }
 
 .main {
   transition: all 1s ease-in;
   display: grid;
-  grid-template-columns: 100vw 100vw;
   @apply relative;
 }
 

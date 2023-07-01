@@ -18,19 +18,39 @@
     "buttons": {
       "visit": "Visitar"
     },
-    "projects": {
-      "descubreTrinidad": {
+    "projects": [
+      {
+        "id": "descubre-trinidad",
+        "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/trinidad_JsaJELltL.jpg",
+        "url": "https://descubretrinidad.com/",
         "title": "Descubre Trinidad",
-        "bodies": {
-          "body1": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\"."
-        }
+        "body": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\".",
+        "buttonClass": "text-secondary-background hover:text-[white] bg-[#fbb13b] hover:bg-[#f29c16]"
       },
-      "altaVoz": {
+      {
+        "id": "alta-voz",
         "title": "Alta Voz",
-        "bodies": {
-          "body1": "Alta Voz ofrece música grabada y podcasts digitales para Latinoamérica. También ofrece vídeos musicales. Como servicio freemium, las funciones básicas son gratuitas con anuncios y control limitado, mientras que las funciones adicionales, como escuchar sin conexión, sin anuncios comerciales y vídeos musicales, se ofrecen a través de suscripciones de pago. "
-        }
+        "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/altavoz_EB7INjK3Q.jpg?updatedAt=1688226805633",
+        "url": "https://alta-voz-d4a05.web.app/",
+        "buttonClass": "bg-[#a83e19] hover:bg-[#f15a24] text-[white]",
+        "body": "Alta Voz ofrece música grabada y podcasts digitales para Latinoamérica. También ofrece vídeos musicales. Como servicio freemium, las funciones básicas son gratuitas con anuncios y control limitado, mientras que las funciones adicionales, como escuchar sin conexión, sin anuncios comerciales y vídeos musicales, se ofrecen a través de suscripciones de pago. "
+      },
+      {
+        "id": "descubre-trinidad",
+        "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/trinidad_JsaJELltL.jpg",
+        "url": "https://descubretrinidad.com/",
+        "title": "Descubre Trinidad",
+        "body": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\".",
+        "buttonClass": "text-secondary-background hover:text-[white] bg-[#fbb13b] hover:bg-[#f29c16]"
+      },
+      {
+        "id": "alta-voz",
+        "title": "Alta Voz",
+        "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/altavoz_EB7INjK3Q.jpg?updatedAt=1688226805633",
+        "url": "https://alta-voz-d4a05.web.app/",
+        "buttonClass": "bg-[#a83e19] hover:bg-[#f15a24] text-[white]",
+        "body": "Alta Voz ofrece música grabada y podcasts digitales para Latinoamérica. También ofrece vídeos musicales. Como servicio freemium, las funciones básicas son gratuitas con anuncios y control limitado, mientras que las funciones adicionales, como escuchar sin conexión, sin anuncios comerciales y vídeos musicales, se ofrecen a través de suscripciones de pago. "
       }
-    }
+    ]
   }
 }
