@@ -14,6 +14,17 @@
       { "to": "#skills", "label": "Habilidades" },
       { "to": "#projects", "label": "Proyectos" },
       { "to": "#contact-me", "label": "Contactar" }
-    ]
+    ],
+    "buttons": {
+      "visit": "Visitar"
+    },
+    "projects": {
+      "descubreTrinidad": {
+        "title": "Descubre Trinidad",
+        "bodies": {
+          "body1": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\"."
+        }
+      }
+    }
   }
 }

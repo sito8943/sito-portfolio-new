@@ -1,0 +1,55 @@
+.arrow-button {
+  @apply cursor-pointer z-10 absolute text-primary bg-dark-p hover:text-dark-p hover:bg-primary w-10 h-10 rounded-full transition flex items-center justify-center;
+}
+
+.cell {
+  @apply w-screen h-screen;
+}
+
+.main {
+  transition: all 1s ease-in;
+  display: grid;
+  grid-template-columns: 100vw 100vw;
+  @apply relative;
+}
+
+.descubre-trinidad h1 {
+  font-family: "Times New Roman", Times, serif;
+  @apply text-5xl;
+}
+
+.descubre-trinidad p {
+  font-family: Arial, Helvetica, sans-serif;
+  @apply text-base;
+}
+
+.image {
+  @apply w-[50%] h-full object-cover;
+}
+
+.info {
+  @apply flex flex-col h-full justify-center items-start gap-5 w-[50%];
+}
+
+@media (max-width: 800px) {
+  .image {
+    @apply absolute w-full top-0 left-0;
+  }
+
+  .info {
+    @apply absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%] items-center w-full px-10 bg-opacity-secondary-background-projects;
+  }
+
+  .info h1,
+  .info p {
+    @apply text-center;
+  }
+
+  .descubre-trinidad h1 {
+    @apply text-3xl;
+  }
+
+  .descubre-trinidad p {
+    @apply text-sm;
+  }
+}
