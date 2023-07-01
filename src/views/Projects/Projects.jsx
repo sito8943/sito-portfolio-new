@@ -4,18 +4,14 @@ import { css } from "@emotion/css";
 
 // font awesome
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowRight,
-  faArrowUp,
-  faArrowLeft,
-  faArrowDown,
-} from "@fortawesome/free-solid-svg-icons";
+import { faArrowRight, faArrowLeft } from "@fortawesome/free-solid-svg-icons";
 
 // styles
 import "./styles.css";
 
 // components
 import DescubreTrinidad from "./DescubreTrinidad";
+import AltaVoz from "./AltaVoz";
 
 function Projects() {
   const [positionX, setPositionX] = useState(0);
@@ -53,6 +49,7 @@ function Projects() {
         })}`}
       >
         <DescubreTrinidad />
+        <AltaVoz />
       </div>
     </section>
   );

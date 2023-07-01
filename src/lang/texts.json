@@ -24,6 +24,12 @@
         "bodies": {
           "body1": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\"."
         }
+      },
+      "altaVoz": {
+        "title": "Alta Voz",
+        "bodies": {
+          "body1": "Alta Voz ofrece música grabada y podcasts digitales para Latinoamérica. También ofrece vídeos musicales. Como servicio freemium, las funciones básicas son gratuitas con anuncios y control limitado, mientras que las funciones adicionales, como escuchar sin conexión, sin anuncios comerciales y vídeos musicales, se ofrecen a través de suscripciones de pago. "
+        }
       }
     }
   }

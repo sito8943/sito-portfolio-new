@@ -15,12 +15,25 @@
 
 .descubre-trinidad h1 {
   font-family: "Times New Roman", Times, serif;
+}
+
+.info h1 {
   @apply text-5xl;
+}
+
+.info p {
+  @apply text-base;
 }
 
 .descubre-trinidad p {
   font-family: Arial, Helvetica, sans-serif;
-  @apply text-base;
+}
+.alta-voz h1 {
+  @apply font-bold
+}
+.alta-voz h1,
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .image {
@@ -45,11 +58,11 @@
     @apply text-center;
   }
 
-  .descubre-trinidad h1 {
+  .info h1 {
     @apply text-3xl;
   }
 
-  .descubre-trinidad p {
+  .info p {
     @apply text-sm;
   }
 }

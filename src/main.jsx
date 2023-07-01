@@ -6,6 +6,9 @@ import { LanguageProvider } from "./contexts/LanguageProvider.jsx";
 // app
 import App from "./App.jsx";
 
+// fonts
+import '@fontsource/roboto';
+
 // styles
 import "./index.css";
 import "./assets/animations/agrow.css";
