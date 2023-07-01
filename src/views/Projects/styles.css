@@ -3,7 +3,7 @@
 }
 
 .go-button {
-  @apply flex gap-2 transition font-medium px-5 py-2 items-center justify-center rounded-3xl
+  @apply flex gap-2 transition font-medium px-5 py-2 items-center justify-center rounded-3xl;
 }
 
 .cell {
@@ -31,12 +31,46 @@
 .descubre-trinidad p {
   font-family: Arial, Helvetica, sans-serif;
 }
-.alta-voz h1 {
-  @apply font-bold
+
+.descubre-trinidad a {
+  background-color: #fbb13b;
+  @apply text-secondary-background hover:text-[white];
 }
+
+.descubre-trinidad a:hover {
+  background-color: #f29c16;
+}
+
+.alta-voz h1 {
+  @apply font-bold;
+}
+
 .alta-voz h1,
 p {
   font-family: "Roboto", sans-serif;
+}
+
+.alta-voz a {
+  background-color: #a83e19;
+  color: aliceblue;
+}
+
+.alta-voz a:hover {
+  background-color: #f15a24;
+}
+
+.m2g-fotos  h1,
+.findylin h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900 !important;
+}
+
+.m2g-fotos a {
+  @apply text-[white] hover:text-[#117fd7] bg-[#117fd7] hover:bg-[white];
+}
+
+.findylin a {
+  @apply bg-[#004e41] hover:bg-[#00362d] text-[white];
 }
 
 .image {

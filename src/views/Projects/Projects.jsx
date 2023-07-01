@@ -41,19 +41,23 @@ function Projects() {
   return (
     <section id="projects" className="w-full h-screen relative">
       <div className="">
-        <button
-          onClick={goRight}
-          className="-translate-y-[50%] top-[50%] right-2 arrow-button"
-        >
-          <FontAwesomeIcon className="text-2xl" icon={faArrowRight} />
-        </button>
+        {positionX !== -1 * 100 * (columns - 1) ? (
+          <button
+            onClick={goRight}
+            className="-translate-y-[50%] top-[50%] right-2 arrow-button"
+          >
+            <FontAwesomeIcon className="text-2xl" icon={faArrowRight} />
+          </button>
+        ) : null}
 
-        <button
-          onClick={goLeft}
-          className="-translate-y-[50%] top-[50%] left-2 arrow-button"
-        >
-          <FontAwesomeIcon className="text-2xl" icon={faArrowLeft} />
-        </button>
+        {positionX !== 0 ? (
+          <button
+            onClick={goLeft}
+            className="-translate-y-[50%] top-[50%] left-2 arrow-button"
+          >
+            <FontAwesomeIcon className="text-2xl" icon={faArrowLeft} />
+          </button>
+        ) : null}
       </div>
       <div
         className={`main ${css({

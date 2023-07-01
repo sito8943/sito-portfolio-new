@@ -24,15 +24,13 @@
         "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/trinidad_JsaJELltL.jpg",
         "url": "https://descubretrinidad.com/",
         "title": "Descubre Trinidad",
-        "body": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\".",
-        "buttonClass": "text-secondary-background hover:text-[white] bg-[#fbb13b] hover:bg-[#f29c16]"
+        "body": "Descubre la magia de esta hermosa ciudad colonial ubicada en la costa sur de Cuba, donde la historia, la arquitectura y las tradiciones se fusionan en una experiencia inolvidable. Déjate llevar por el encanto de la \"Ciudad de Encuentros\"."
       },
       {
         "id": "alta-voz",
         "title": "Alta Voz",
         "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/altavoz_EB7INjK3Q.jpg?updatedAt=1688226805633",
         "url": "https://alta-voz-d4a05.web.app/",
-        "buttonClass": "bg-[#a83e19] hover:bg-[#f15a24] text-[white]",
         "body": "Alta Voz ofrece música grabada y podcasts digitales para Latinoamérica. También ofrece vídeos musicales. Como servicio freemium, las funciones básicas son gratuitas con anuncios y control limitado, mientras que las funciones adicionales, como escuchar sin conexión, sin anuncios comerciales y vídeos musicales, se ofrecen a través de suscripciones de pago. "
       },
       {
@@ -40,16 +38,14 @@
         "image": "https://ik.imagekit.io/lgqp0wffgtp/M2g/Untitled_xhFWRyelS.jpg",
         "url": "https://m2g-fotos.web.app/",
         "title": "M2G Fotos",
-        "body": "Sitio web oficial M2G Fotos. Estudio de Fotografía en Santiago de Cuba. Inicialmente su nombre era Estudio Foto-Video Santiago de Cuba hasta finales de 2022, actualmente su sede se encuentra en calle Enramadas #515, entre Reloj y San Agustín, Santiago de Cuba.",
-        "buttonClass": "text-[white] hover:text-[#117fd7] bg-[#117fd7] hover:bg-[white]"
+        "body": "Sitio web oficial M2G Fotos. Estudio de Fotografía en Santiago de Cuba. Inicialmente su nombre era Estudio Foto-Video Santiago de Cuba hasta finales de 2022, actualmente su sede se encuentra en calle Enramadas #515, entre Reloj y San Agustín, Santiago de Cuba."
       },
-      { 
-        "id": "alta-voz",
-        "title": "Alta Voz", 
-        "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/altavoz_EB7INjK3Q.jpg?updatedAt=1688226805633",
-        "url": "https://alta-voz-d4a05.web.app/",
-        "buttonClass": "bg-[#a83e19] hover:bg-[#f15a24] text-[white]",
-        "body": "Alta Voz ofrece música grabada y podcasts digitales para Latinoamérica. También ofrece vídeos musicales. Como servicio freemium, las funciones básicas son gratuitas con anuncios y control limitado, mientras que las funciones adicionales, como escuchar sin conexión, sin anuncios comerciales y vídeos musicales, se ofrecen a través de suscripciones de pago. "
+      {
+        "id": "findylin",
+        "title": "Findylin",
+        "image": "https://ik.imagekit.io/lgqp0wffgtp/SitoPortafolio/Findylin_C4-sQVX86.jpg",
+        "url": "https://findylin-369a7.web.app/",
+        "body": "¡Findylin! Conectamos a propietarios de bienes inmuebles y corredores inmobiliarios con clientes que buscan una propiedad. Con nuestro enfoque centrado en el usuario, te aseguramos una experiencia de búsqueda personalizada y eficiente. "
       }
     ]
   }

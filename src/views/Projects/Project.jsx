@@ -27,7 +27,7 @@ function Project({ title, id, body, image, url, buttonClass }) {
           href={url}
           target="_blank"
           rel="noreferrer"
-          className={`go-button ${buttonClass}`}
+          className={`go-button ${buttonClass} `}
         >
           {buttons.visit}
           <FontAwesomeIcon className="text-sm mt-[1px]" icon={faExternalLink} />

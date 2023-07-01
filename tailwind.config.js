@@ -11,7 +11,7 @@ export default {
       "dark-r": "#4f1010",
       "secondary-background": "#222",
       "opacity-secondary-background": "#222222ee",
-      "opacity-secondary-background-projects": "#222222a4",
+      "opacity-secondary-background-projects": "#222222ee",
     },
   },
   plugins: [],

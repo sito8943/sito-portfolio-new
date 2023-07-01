@@ -7,7 +7,8 @@ import { LanguageProvider } from "./contexts/LanguageProvider.jsx";
 import App from "./App.jsx";
 
 // fonts
-import '@fontsource/roboto';
+import "@fontsource/roboto";
+import "@fontsource/poppins";
 
 // styles
 import "./index.css";
