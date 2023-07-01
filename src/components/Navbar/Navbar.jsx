@@ -1,5 +1,7 @@
 import { useMemo, useState, useEffect, useCallback } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
+import { css } from "@emotion/css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -12,6 +14,9 @@ import "./styles.css";
 
 function Navbar() {
   const location = useLocation();
+  const navigate = useNavigate();
+
+  const [hideNavbar, setHideNavbar] = useState(true);
 
   const [showOffCanvas, setShowOffCanvas] = useState(false);
 
@@ -24,6 +29,7 @@ function Navbar() {
   useEffect(() => {
     const { hash } = location;
     setActiveLink(hash.length ? hash : activeLink);
+    // if ()
   }, [location]);
 
   const onScroll = useCallback(() => {
@@ -36,6 +42,7 @@ function Navbar() {
 
       if (top >= offset && top < offset + height) {
         setActiveLink(`#${id}`);
+        navigate(`#${id}`);
       }
     });
   }, [setActiveLink]);
@@ -72,8 +79,18 @@ function Navbar() {
     );
   }, [links, activeLink]);
 
+  useEffect(() => {
+    setTimeout(() => {
+      setHideNavbar(false);
+    }, 1500);
+  }, []);
+
   return (
-    <header className="z-50 fixed top-0 left-0 w-full h-[60px] flex justify-between items-center bg-opacity-secondary-background backdrop-blur-[20px] navbar">
+    <header
+      className={`navbar ${css({
+        height: hideNavbar ? "0px" : "60px",
+      })}`}
+    >
       <Link to="/" className="text-secondary font-bold text-xl">
         {"<Sito />"}
       </Link>

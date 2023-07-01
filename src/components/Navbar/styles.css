@@ -1,3 +1,9 @@
+.navbar {
+  transition: all 500ms ease-out;
+  @apply z-50 fixed top-0 left-0
+    w-full overflow-hidden flex justify-between items-center bg-opacity-secondary-background backdrop-blur-[20px];
+}
+
 @media (min-width: 1051px) {
   .toggle-drawer {
     display: none;

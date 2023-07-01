@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { Suspense, useEffect, useCallback } from "react";
+import { Suspense, useState, useEffect, useCallback } from "react";
 import loadable from "@loadable/component";
 
 // images
@@ -13,24 +13,23 @@ const Left = loadable(() => import("./Articles/Left"));
 const Right = loadable(() => import("./Articles/Right"));
 
 function Hero() {
-  const onScroll = useCallback(() => {
-    console.log();
-  }, []);
+  const [turnBalls, setTurnBalls] = useState(false);
 
   useEffect(() => {
-    window.addEventListener("scroll", onScroll);
-    return () => {
-      window.removeEventListener("scroll", onScroll);
-    };
-  }, [onScroll]);
+    setTimeout(() => {
+      setTurnBalls(true);
+    }, 400);
+  }, []);
 
   return (
-    <section id="hero" className="hero">
+    <section id="hero" className="hero relative overflow-hidden">
       <Suspense>
         <img
           src={circlesMobiles}
           alt="bg"
-          className="entrance absolute top-0 left-0 z-0 w-full h-screen"
+          className={`${
+            turnBalls ? "float-inv-radial" : "entrance"
+          }  absolute top-[50%] left-[50%] z-0 -translate-y-[50%] -translate-x-[50%] w-[200vw] h-[200vh]`}
         />
         <Left />
         <Right />

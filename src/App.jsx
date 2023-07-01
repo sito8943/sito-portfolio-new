@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // sections
 import Hero from "./views/Hero/Hero";
 import IMake from "./views/IMake/IMake";
+import Projects from "./views/Projects/Projects";
 
 // components
 import ToTop from "./components/ToTop/ToTop";
@@ -21,6 +22,7 @@ function App() {
                 <Navbar />
                 <Hero />
                 <IMake />
+                <Projects />
               </>
             }
           ></Route>
