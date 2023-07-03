@@ -87,7 +87,7 @@ p {
   }
 
   .info {
-    @apply absolute -translate-x-[50%] -translate-y-[50%] top-[50%] left-[50%] items-center w-full px-10 bg-opacity-secondary-background-projects;
+    @apply absolute -translate-x-0 -translate-y-0 top-0 left-0 items-center w-full px-10 bg-opacity-secondary-background-projects;
   }
 
   .info h1,
