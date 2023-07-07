@@ -87,8 +87,8 @@ function Navbar() {
 
   return (
     <header
-      className={`navbar ${css({
-        height: hideNavbar ? "0px" : "60px",
+      className={`navbar h-[60px] ${css({
+        opacity: hideNavbar ? 0 : 1,
       })}`}
     >
       <Link to="/" className="text-secondary font-bold text-xl">

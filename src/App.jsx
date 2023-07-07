@@ -9,6 +9,9 @@ import Projects from "./views/Projects/Projects";
 import ToTop from "./components/ToTop/ToTop";
 import Navbar from "./components/Navbar/Navbar";
 
+// contexts
+import { ActiveProvider } from "./views/Projects/ActiveProvider";
+
 function App() {
   return (
     <main>
@@ -22,7 +25,9 @@ function App() {
                 <Navbar />
                 <Hero />
                 <IMake />
-                <Projects />
+                <ActiveProvider>
+                  <Projects />
+                </ActiveProvider>
               </>
             }
           ></Route>

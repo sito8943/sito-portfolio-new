@@ -13,7 +13,7 @@
 .main {
   transition: all 1s ease-in;
   display: grid;
-  @apply relative;
+  @apply relative h-[80%];
 }
 
 .descubre-trinidad h1 {
@@ -59,7 +59,7 @@ p {
   background-color: #f15a24;
 }
 
-.m2g-fotos  h1,
+.m2g-fotos h1,
 .findylin h1 {
   font-family: "Poppins", sans-serif;
   font-weight: 900 !important;
@@ -78,6 +78,7 @@ p {
 }
 
 .info {
+  transition: all 1s ease;
   @apply flex flex-col h-full justify-center items-start gap-5 w-[50%];
 }
 

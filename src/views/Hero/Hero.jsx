@@ -18,7 +18,7 @@ function Hero() {
   useEffect(() => {
     setTimeout(() => {
       setTurnBalls(true);
-    }, 400);
+    }, 500);
   }, []);
 
   return (
