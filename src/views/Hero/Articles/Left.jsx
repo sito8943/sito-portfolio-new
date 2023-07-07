@@ -41,7 +41,7 @@ function Left() {
             <FontAwesomeIcon icon={faGithub} />
           </a>
         </PrintAfter>
-        <PrintAfter delay={1100}>
+        <PrintAfter delay={1200}>
           <a
             className="appear text-[white] text-2xl hover:text-secondary hover:-translate-y-1 transition"
             href="https://www.facebook.com/carlosandres.moragonzalez.7/"
@@ -51,7 +51,7 @@ function Left() {
             <FontAwesomeIcon icon={faFacebook} />
           </a>
         </PrintAfter>
-        <PrintAfter delay={1200}>
+        <PrintAfter delay={1400}>
           <a
             className="appear text-[white] text-2xl hover:text-secondary hover:-translate-y-1 transition"
             href="https://www.instagram.com/sitonumbis/"
@@ -61,7 +61,7 @@ function Left() {
             <FontAwesomeIcon icon={faInstagram} />
           </a>
         </PrintAfter>
-        <PrintAfter delay={1300}>
+        <PrintAfter delay={1600}>
           <a
             className="appear text-[white] text-2xl hover:text-secondary hover:-translate-y-1 transition"
             href="https://twitter.com/sito8943"

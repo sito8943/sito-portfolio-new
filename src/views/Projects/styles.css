@@ -93,7 +93,7 @@ p {
 
   .info h1,
   .info p {
-    @apply text-center;
+    @apply text-center m-auto;
   }
 
   .info h1 {

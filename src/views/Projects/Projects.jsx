@@ -15,6 +15,7 @@ import { useLanguage } from "../../contexts/LanguageProvider";
 
 // components
 import Project from "./Project";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function Projects() {
   const { languageState } = useLanguage();
@@ -47,40 +48,63 @@ function Projects() {
   }, [languageState]);
 
   return (
-    <section id="projects" className="w-full h-screen relative overflow-x-hidden">
-     {/*  <div className="w-full h-[300px] flex items-center justify-center padding-left padding-right z-10">
-        <h2 className="text-[white] text-4xl">
+    <>
+      <div className="w-full h-[400px] flex items-center justify-center padding-left padding-right z-10 bg-dark-p flex-col gap-3">
+        <h2 className="text-[white] text-4xl font-bold">
           {languageState.texts.projects.title}
         </h2>
-      </div> */}
-      <div className="">
-        {positionX !== -1 * 100 * (columns - 1) ? (
-          <button
-            onClick={goRight}
-            className="-translate-y-[50%] top-[50%] right-2 arrow-button"
-          >
-            <FontAwesomeIcon className="text-2xl" icon={faArrowRight} />
-          </button>
-        ) : null}
-
-        {positionX !== 0 ? (
-          <button
-            onClick={goLeft}
-            className="-translate-y-[50%] top-[50%] left-2 arrow-button"
-          >
-            <FontAwesomeIcon className="text-2xl" icon={faArrowLeft} />
-          </button>
-        ) : null}
+        <p className="text-[white] text-center mt-2">
+          {languageState.texts.projects.body}
+        </p>
+        <a
+          href="https://github.com/SitoNumbis"
+          target="_blank"
+          rel="noreferrer"
+          className="text-[white] transition ease-in-out hover:-translate-y-1"
+        >
+          <FontAwesomeIcon
+            icon={faGithub}
+            className="text-2xl translate-y-[3px] mr-2"
+          />
+          Github
+        </a>
+        <p className="text-[white] mt-1 text-center">
+          {languageState.texts.projects.body1}
+        </p>
       </div>
-      <div
-        className={`main ${css({
-          gridTemplateColumns: `repeat(${columns}, 100vw)`,
-          transform: `translateX(${positionX}vw)`,
-        })}`}
+      <section
+        id="projects"
+        className="w-full h-screen relative overflow-x-hidden"
       >
-        {printProjects()}
-      </div>
-    </section>
+        <div className="">
+          {positionX !== -1 * 100 * (columns - 1) ? (
+            <button
+              onClick={goRight}
+              className="-translate-y-[50%] top-[50%] right-2 arrow-button"
+            >
+              <FontAwesomeIcon className="text-2xl" icon={faArrowRight} />
+            </button>
+          ) : null}
+
+          {positionX !== 0 ? (
+            <button
+              onClick={goLeft}
+              className="-translate-y-[50%] top-[50%] left-2 arrow-button"
+            >
+              <FontAwesomeIcon className="text-2xl" icon={faArrowLeft} />
+            </button>
+          ) : null}
+        </div>
+        <div
+          className={`main ${css({
+            gridTemplateColumns: `repeat(${columns}, 100vw)`,
+            transform: `translateX(${positionX}vw)`,
+          })}`}
+        >
+          {printProjects()}
+        </div>
+      </section>
+    </>
   );
 }
 
