@@ -1,4 +1,5 @@
 import { useCallback, useMemo } from "react";
+import Marquee from "react-fast-marquee";
 
 // contexts
 import { useLanguage } from "../../contexts/LanguageProvider";
@@ -20,12 +21,17 @@ function IMake() {
   }, [iMake]);
 
   return (
-    <section
-      id="i-make"
-      className="h-screen bg-red-bg padding-left padding-right z-10 flex-col gap-3"
-    >
-      <h2 className="text-[white] text-4xl font-bold">{iMake.title}</h2>
-      {printIMakes()}
+    <section id="i-make" className="h-screen bg-red-bg flex-col gap-3">
+      <Marquee gradient={false} speed="50" className="overflow-y-hidden">
+        <h2 className="text-[white] text-9xl font-bold uppercase">
+          <span className="mr-5">{iMake.title}</span>
+          <span className="mr-5">{iMake.title}</span>
+          <span className="mr-5">{iMake.title}</span>
+          <span className="mr-5">{iMake.title}</span>
+          <span className="mr-5">{iMake.title}</span>
+        </h2>
+      </Marquee>
+      <div className="padding-left padding-right">{printIMakes()}</div>
     </section>
   );
 }
