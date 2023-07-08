@@ -38,6 +38,11 @@
           "id": "blogs",
           "title": "Blog",
           "body": "Un blog o bitácora es un sitio web que incluye, a modo de diario personal de su autor o autores, contenidos de su interés, que suelen estar actualizados con frecuencia y a menudo son comentados por los lectores."
+        },
+        {
+          "id": "rest-apis",
+          "title": "REST APIs",
+          "body": ""
         }
       ]
     },
