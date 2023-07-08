@@ -49,7 +49,7 @@ function Projects() {
 
   return (
     <>
-      <div className="w-full h-[400px] flex items-center justify-center padding-left padding-right z-10 bg-dark-p flex-col gap-3">
+      <div className="w-full h-[400px] flex items-center justify-center padding-left padding-right z-10 bg-red-bg flex-col gap-3">
         <h2 className="text-[white] text-4xl font-bold">
           {languageState.texts.projects.title}
         </h2>

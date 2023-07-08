@@ -56,8 +56,11 @@ function Navbar() {
 
   const { languageState } = useLanguage();
 
-  const { links } = useMemo(() => {
-    return { links: languageState.texts.links };
+  const { links, callToAction } = useMemo(() => {
+    return {
+      links: languageState.texts.links,
+      callToAction: languageState.texts.callToAction,
+    };
   }, [languageState]);
 
   const printLinks = useCallback(() => {
@@ -68,16 +71,21 @@ function Navbar() {
             <a
               href={link.to}
               className={`${
-                link.to === activeLink ? "text-secondary" : "text-primary"
+                link.to === activeLink ? "text-secondary" : "text-dark-s"
               } transition hover:text-secondary`}
             >
               {link.label}
             </a>
           </li>
         ))}
+        <li>
+          <a className="call-to-action" href={callToAction.to}>
+            {callToAction.label}
+          </a>
+        </li>
       </ul>
     );
-  }, [links, activeLink]);
+  }, [links, callToAction, activeLink]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -91,8 +99,8 @@ function Navbar() {
         opacity: hideNavbar ? 0 : 1,
       })}`}
     >
-      <Link to="/" className="text-secondary font-bold text-xl">
-        {"<Sito />"}
+      <Link to="/" className="text-primary font-bold text-xl">
+        <h1>{"<Sito />"}</h1>
       </Link>
       <nav className="links">{printLinks()}</nav>
       <button className="text-primary toggle-drawer">

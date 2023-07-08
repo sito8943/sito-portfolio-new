@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-import { Suspense, useState, useEffect, useCallback } from "react";
+import { Suspense, useState, useEffect } from "react";
 import loadable from "@loadable/component";
 
 // images

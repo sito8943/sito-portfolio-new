@@ -1,5 +1,5 @@
 .hero {
-  @apply h-screen flex bg-dark-p;
+  @apply h-screen flex bg-main-background;
 }
 
 .hero * {

@@ -4,12 +4,13 @@ export default {
   theme: {
     extend: {},
     colors: {
-      primary: "#2499ff",
-      secondary: "#ff5353",
+      primary: "#608df7",
+      secondary: "#a8aabc",
       "main-background": "#1b1b1b",
-      "dark-p": "#222333",
-      "dark-r": "#4f1010",
+      "dark-p": "#002759",
+      "dark-s": "#747687",
       "secondary-background": "#222",
+      "red-bg": "#540a1c",
       "opacity-secondary-background": "#222222ee",
       "opacity-secondary-background-projects": "#222222ee",
     },

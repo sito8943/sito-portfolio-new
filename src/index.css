@@ -10,6 +10,10 @@
   scroll-behavior: smooth;
 }
 
+.call-to-action {
+  @apply bg-dark-p hover:bg-primary text-secondary hover:text-dark-p py-2 px-5 transition rounded-3xl;
+}
+
 body {
   @apply bg-main-background overflow-x-hidden;
 }

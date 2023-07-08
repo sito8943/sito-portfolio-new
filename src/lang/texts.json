@@ -12,11 +12,34 @@
       { "to": "#i-make", "label": "Lo que hago" },
       { "to": "#about-me", "label": "Acerca de mi" },
       { "to": "#skills", "label": "Habilidades" },
-      { "to": "#projects", "label": "Proyectos" },
-      { "to": "#contact-me", "label": "Contactar" }
+      { "to": "#projects", "label": "Proyectos" }
     ],
+    "callToAction": {
+      "to": "#contact-me",
+      "label": "Contactar"
+    },
     "buttons": {
       "visit": "Visitar"
+    },
+    "iMake": {
+      "title": "Lo que hago",
+      "work": [
+        {
+          "id": "dashboards",
+          "title": "Panel Administrativo",
+          "body": "Un Panel Administrativo (Dashboard) es una herramienta de gestión que monitoriza, analiza y muestra métricas y datos fundamentales para hacer un seguimiento del estado de una empresa, un departamento, una campaña o un proceso específico."
+        },
+        {
+          "id": "landings",
+          "title": "Página Aterrizada",
+          "body": "Una landing page o página de destino es una página web diseñada para persuadir a los visitantes de realizar una acción específica como comprar un producto, suscribirse a un servicio o descargar un recurso. "
+        },
+        {
+          "id": "blogs",
+          "title": "Blog",
+          "body": "Un blog o bitácora es un sitio web que incluye, a modo de diario personal de su autor o autores, contenidos de su interés, que suelen estar actualizados con frecuencia y a menudo son comentados por los lectores."
+        }
+      ]
     },
     "projects": {
       "title": "Proyectos",
